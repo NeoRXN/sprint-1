@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 500px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.encabezado {
+  height: 40px;
+  padding-left: 10px;
+  padding-top: 5px;
+  background-color: #80b918;
+  border-radius: 5px 5px 0% 0%;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  font-family: Verdana;
+  margin: 10px 0;
+}
+
+select {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  font-family: Verdana;
+}
+
+input {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  font-family: Verdana;
+}
+
+.registro {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.registro button {
+  border: 0;
+  background-color: #70e000;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #80b918;
+  border-radius: 0% 0% 5px 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+#form-registro {
+  padding-left: 10px;
+}
